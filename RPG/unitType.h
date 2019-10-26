@@ -1,7 +1,5 @@
 #pragma once
 
-/////////////////////////////////////
-// Include
 #include "level.h"
 
 
