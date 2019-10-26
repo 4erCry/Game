@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <Windows.h>
 
-
-/////////////////////////////////////
 // Logics variables
 HANDLE consoleHandle = 0;
 
@@ -12,8 +10,6 @@ ConsoleSymbolData backBuffer[screenRows][screenColumns];
 ConsoleSymbolData screenBuffer[screenRows][screenColumns];
 
 
-/////////////////////////////////////
-// Functions
 void RenderSystemInitialize()
 {
 	// Get console handle
